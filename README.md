@@ -2,9 +2,7 @@
 
 Built to learn how to make Progressive Web Apps, this displays a QR Code containing a message.
 
-See it online at:  
-
-[qr-code-pwa.firebaseapp.com/](https://qr-code-pwa.firebaseapp.com/)
+See it online at: [qr-code-pwa.firebaseapp.com/](https://qr-code-pwa.firebaseapp.com/)
 
 ![screenshot](screenshot.png)
 
