@@ -239,7 +239,7 @@ body {
   float: right; }
 
 .card {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 16px;
   position: relative;
   box-sizing: border-box;

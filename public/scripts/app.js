@@ -23,10 +23,6 @@
     addDialog: document.querySelector('.dialog-container')
   };
 
-  document.ready(()=> {
-    $('#qrCodeMessage').val("Enter your QR Code message or link here");
-    $('#qrcode').qrcode($('#qrCodeMessage').val());
-  });
   /*****************************************************************************
    *
    * Event listeners for UI elements

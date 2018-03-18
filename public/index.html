@@ -58,6 +58,7 @@
     <script type="text/javascript">
       let content = localStorage.getItem("qrCodeMessage") || 'QR Codes are great!';
       $('#qrcode').qrcode(content);
+      $('#qrCodeMessage').val(content);
 
       $('#buttonGenerate').click(() => {
         console.log('click');
