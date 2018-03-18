@@ -6,7 +6,7 @@ See it online at:
 
 [qr-code-pwa.firebaseapp.com/](https://qr-code-pwa.firebaseapp.com/)
 
-![qr-code-pwa image](qr-code-pwa.png)
+![screenshot](screenshot.png)
 
 ## Resources
 
