@@ -2,6 +2,7 @@ var dataCacheName = 'qr-code-pwa';
 var cacheName = 'qr-code-pwa';
 var filesToCache = [
   '/',
+  'favicon.ico',
  "./fonts",
  "./fonts/roboto",
  "./fonts/roboto/Roboto-Bold.woff",
@@ -14,6 +15,13 @@ var filesToCache = [
  "./fonts/roboto/Roboto-Regular.woff2",
  "./fonts/roboto/Roboto-Thin.woff",
  "./fonts/roboto/Roboto-Thin.woff2",
+ "./images",
+ "./images/icons",
+ "./images/icons/icon-128x128.png",
+ "./images/icons/icon-144x144.png",
+ "./images/icons/icon-152x152.png",
+ "./images/icons/icon-192x192.png",
+ "./images/icons/icon-256x256.png",
  "./index.html",
  "./manifest.json",
  "./materialize",
