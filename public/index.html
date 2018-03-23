@@ -29,7 +29,7 @@
 
     <main class="main">
       <div style="text-align: center;" class="container">
-        
+
         <div class="card">
           <div id="qrcode"></div>
         </div>
@@ -56,17 +56,6 @@
       </div>
     </main>
 
-    <script type="text/javascript">
-      let content = localStorage.getItem("qrCodeMessage") || 'QR Codes are great!';
-      $('#qrcode').qrcode(content);
-      $('#qrCodeMessage').val(content);
-
-      $('#buttonGenerate').click(() => {
-        console.log('click');
-        let content = $('#qrCodeMessage').val();
-        localStorage.setItem("qrCodeMessage", content);
-        location.reload();
-      });
-    </script>
+    <script type="text/javascript" src="scripts/app.js"></script>
   </body>
 </html>
