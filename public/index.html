@@ -5,20 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>QR Code PWA</title>
+    <title>Template PWA</title>
 
-    <link rel="stylesheet" type="text/css" href="styles/inline.css">
     <link rel="stylesheet" type="text/css" href="styles/materialize.css">
 
     <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="scripts/jquery.qrcode.min.js"></script>
 
     <link rel="manifest" href="/manifest.json">
 
     <!-- Add to home screen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Weather PWA">
+    <meta name="apple-mobile-web-app-title" content="Template PWA">
     <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
     <!-- Windows -->
     <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
@@ -30,8 +28,8 @@
   </head>
   <body>
 
-    <header class="header">
-      <h1 style="text-align: center;" class="header__title">QR Code PWA</h1>
+    <header class="header nav-wrapper purple">
+      <h1 style="text-align: center;" class="header__title">Template PWA</h1>
     </header>
 
     <main class="main">
@@ -47,14 +45,14 @@
             <div class="row">
               <div class="input-field col s12">
                 <hr>
-                Enter your message or link for the QR Code
-                <input id="qrCodeMessage" type="text" class="validate">
+                Enter your message
+                <input id="message" type="text" class="validate">
               </div>
             </div>
             <div class="row">
               <div class="grid-example col s12">
                 <button class="waves-effect waves-light btn-large" id="buttonGenerate" type="button" name="button">
-                  Generate QR Code
+                  Submit
                 </button>
               </div>
             </div>

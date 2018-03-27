@@ -15,7 +15,6 @@ var filesToCache = [
  "./scripts",
  "./scripts/app.js",
  "./scripts/jquery-3.3.1.js",
- "./scripts/jquery.qrcode.min.js",
  "./scripts/materialize.js",
  "./service-worker.js",
  "./styles",

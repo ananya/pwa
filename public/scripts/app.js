@@ -2,17 +2,17 @@
   'use strict';
 
   window.onload = function() {
-    let content = localStorage.getItem("qrCodeMessage") || 'QR Codes are great!';
-    $('#qrCodeMessage').val(content);
-    $('#qrcode').qrcode(content);
+    let content = localStorage.getItem("message") || 'Enter a message';
+    $('#message').val(content);
+    $('#card').val(content);
   }
 
-   $('#buttonGenerate').click(() => {
+   $('#button').click(() => {
      console.log('click');
-     let message = $('#qrCodeMessage').val();
-     localStorage.setItem("qrCodeMessage", message);
-     $('#qrcode').html('');
-     $('#qrcode').qrcode(message);
+     let message = $('#message').val();
+     localStorage.setItem("message", message);
+     $('#message').val('');
+     $('#card').val(message);
    });
 
 

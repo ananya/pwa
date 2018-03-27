@@ -1,6 +1,6 @@
 # QR Code Progressive Web App
 
-Built to learn how to make Progressive Web Apps, this displays a QR Code containing a message.
+This is a template you can use to quickly build a progressive web app
 
 See it online at: [qr-code-pwa.firebaseapp.com/](https://qr-code-pwa.firebaseapp.com/)
 
@@ -11,4 +11,3 @@ See it online at: [qr-code-pwa.firebaseapp.com/](https://qr-code-pwa.firebaseapp
 The resources used to create this app:
 
 - https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
-- https://github.com/jeromeetienne/jquery-qrcode
