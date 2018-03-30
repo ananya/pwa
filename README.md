@@ -1,4 +1,4 @@
-# QR Code Progressive Web App
+# Template Progressive Web App
 
 A template you can use to quickly build a progressive web app that works online, offline, in a browser and as a mobile app
 
