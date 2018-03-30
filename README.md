@@ -59,6 +59,8 @@ The main files to edit are:
 - Within your project folder:
   - `firebase init`
   - `firebase deploy`
+  
+[More instructions for deploying to firebase] (https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#deploy_to_firebase)
 
 ## Examples
 
