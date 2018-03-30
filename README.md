@@ -24,6 +24,28 @@ The main files to edit are:
 
 ## What's included
 
+```
+├── README.md
+├── firebase.json
+└── public
+    ├── fonts
+    │   └── roboto
+    │       └── ...
+    ├── images
+    │   └── icons
+    │       └── ...
+    ├── index.html
+    ├── manifest.json
+    ├── scripts
+    │   ├── app.js
+    │   ├── jquery-3.3.1.js
+    │   └── materialize.js
+    ├── service-worker.js
+    └── styles
+        ├── materialize.css
+        └── style.css
+```
+
 - [JQuery](https://jquery.com/) A library for supporting quick and easy javascipt in your website
 - For styling, this has materialize.js and css from [materializecss.com](http://materializecss.com/). Remove or replace it if you prefer something different.
 - [public/service-worker.js](public/service-worker.js) Currently this will cache the app's files for quick local access. Read more about Service Workers [here](https://developers.google.com/web/fundamentals/primers/service-workers/).
