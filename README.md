@@ -2,6 +2,8 @@
 
 A template you can use to quickly build a progressive web app that works online, offline, in a browser and as a mobile app
 
+![Screenshot](Screenshot.png)
+
 ## Create your app
 
 Clone this repo (or just copy the bits you need)
