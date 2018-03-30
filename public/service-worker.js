@@ -1,5 +1,5 @@
-var dataCacheName = 'qr-code-pwa';
-var cacheName = 'qr-code-pwa';
+var dataCacheName = 'template-pwa';
+var cacheName = 'template-pwa';
 var filesToCache = [
   '/',
  "./favicon.ico",
@@ -18,7 +18,6 @@ var filesToCache = [
  "./scripts/materialize.js",
  "./service-worker.js",
  "./styles",
- "./styles/inline.css",
  "./styles/materialize.css"
 ];
 

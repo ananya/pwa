@@ -7,7 +7,10 @@
 
     <title>Template PWA</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="styles/materialize.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 
     <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
 
@@ -28,34 +31,38 @@
   </head>
   <body>
 
-    <header class="header nav-wrapper purple">
-      <h1 style="text-align: center;" class="header__title">Template PWA</h1>
-    </header>
+    <nav>
+      <div class="nav-wrapper blue darken-4">
+        <a href="#" class="brand-logo center">Template PWA</a>
+      </div>
+    </nav>
 
     <main class="main">
-      <div style="text-align: center;" class="container">
+      <div class="container">
 
-        <div class="card">
-          <div id="message"></div>
+
+        <div class="row">
+          <div class="col s12">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Your message</span>
+                <p><div id="display">DISPLAY</div></p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="row">
-
           <form class="col s12">
             <div class="row">
               <div class="input-field col s12">
-                <hr>
                 Enter your message
                 <input id="message" type="text" class="validate">
               </div>
             </div>
-            <div class="row">
-              <div class="grid-example col s12">
-                <button class="waves-effect waves-light btn-large" id="buttonGenerate" type="button" name="button">
-                  Submit
-                </button>
-              </div>
-            </div>
+            <button class="waves-effect waves-light btn-large" id="button" type="button" name="button">
+              Submit
+            </button>
           </form>
         </div>
       </div>

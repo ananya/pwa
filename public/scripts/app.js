@@ -2,19 +2,18 @@
   'use strict';
 
   window.onload = function() {
-    let content = localStorage.getItem("message") || 'Enter a message';
-    $('#message').val(content);
-    $('#card').val(content);
+    let message = localStorage.getItem("message") || 'Your message will display here';
+    $('#message').html(message);
+    $('#display').html(message);
   }
 
-   $('#button').click(() => {
-     console.log('click');
-     let message = $('#message').val();
-     localStorage.setItem("message", message);
-     $('#message').val('');
-     $('#card').val(message);
-   });
-
+  $('#button').click(() => {
+    console.log('click')
+    let message = $('#message').val();
+    console.log(message);
+    $('#display').html(message);
+    localStorage.setItem("message", message);
+  });
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
