@@ -2,7 +2,18 @@ var dataCacheName = 'template-pwa';
 var cacheName = 'template-pwa';
 var filesToCache = [
   '/',
- "./favicon.ico",
+ "./fonts",
+ "./fonts/roboto",
+ "./fonts/roboto/Roboto-Bold.woff",
+ "./fonts/roboto/Roboto-Bold.woff2",
+ "./fonts/roboto/Roboto-Light.woff",
+ "./fonts/roboto/Roboto-Light.woff2",
+ "./fonts/roboto/Roboto-Medium.woff",
+ "./fonts/roboto/Roboto-Medium.woff2",
+ "./fonts/roboto/Roboto-Regular.woff",
+ "./fonts/roboto/Roboto-Regular.woff2",
+ "./fonts/roboto/Roboto-Thin.woff",
+ "./fonts/roboto/Roboto-Thin.woff2",
  "./images",
  "./images/icons",
  "./images/icons/icon-128x128.png",
@@ -18,7 +29,8 @@ var filesToCache = [
  "./scripts/materialize.js",
  "./service-worker.js",
  "./styles",
- "./styles/materialize.css"
+ "./styles/materialize.css",
+ "./styles/style.css"
 ];
 
 self.addEventListener('install', function(e) {
