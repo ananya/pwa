@@ -2,9 +2,7 @@
 
 A template you can use to quickly build a progressive web app that works online, offline, in a browser and as a mobile app.
 
-<div style="box-shadow: 10px 10px 5px grey;">
-  <img src="Screenshot.png" width="400" border="3">
-</div>
+<img src="Screenshot.png" width="400" border="3">
 
 ## Create your app
 
