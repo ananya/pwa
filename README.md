@@ -14,8 +14,6 @@ Read my post in the freeCodeCamp blog on Medium for a tutorial on how to create 
 
 ## Create your app
 
-<img src="images/Screenshot.png" width="400" border="3" style="border-radius: 10px;">
-
 Clone this repo (or just copy the bits you need)
 
 The main files to edit are:  
@@ -24,6 +22,8 @@ The main files to edit are:
 - [public/scripts/app.js](public/scripts/app.js) This contains the javascript to handle the logic in your app. It currently uses localStorage for storing data when the use clicks the button, it is recommended to use another database in production, such as indexedDb (Read more [here](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/#intercept_the_network_request_and_cache_the_response))
 - [images/icons](images/icons) Create square icons of the number of pixels for each size and save them here
 - [public/service-worker.js](public/service-worker.js) Update this with the list of files you want to cache locally
+
+<img src="images/Screenshot.png" width="400" border="3" style="border-radius: 10px;">
 
 ## Using the app
 
