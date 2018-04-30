@@ -2,13 +2,7 @@
 
 A template you can use to quickly build a progressive web app that works online, offline, in a browser and as a mobile app.
 
-<p align="center">
-<img src="images/Screenshot.png" width="400" border="3">
-</p>
-
-## Tutorial
-
-Read my post in the freeCodeCamp blog on Medium
+Read my post in the freeCodeCamp blog on Medium for a tutorial on how to create your app.
 
 - [How you can make a progressive web app in an hour – freeCodeCamp](https://medium.freecodecamp.org/how-you-can-make-a-progressive-web-app-in-an-hour-7e36d560610e)
 
@@ -19,6 +13,8 @@ Read my post in the freeCodeCamp blog on Medium
 </p>
 
 ## Create your app
+
+<img src="images/Screenshot.png" width="400" border="3">
 
 Clone this repo (or just copy the bits you need)
 
