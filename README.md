@@ -8,13 +8,13 @@ Read my post in the freeCodeCamp blog on Medium for a tutorial on how to create 
 
 <p align="center">
   <a href="https://medium.freecodecamp.org/how-you-can-make-a-progressive-web-app-in-an-hour-7e36d560610e">
-    <img src="images/progressive-web-app-in-an-hour.png" border="3">
+    <img src="images/progressive-web-app-in-an-hour.png" border="3" style="border-radius: 10px;">
   </a>
 </p>
 
 ## Create your app
 
-<img src="images/Screenshot.png" width="400" border="3">
+<img src="images/Screenshot.png" width="400" border="3" style="border-radius: 10px;">
 
 Clone this repo (or just copy the bits you need)
 
