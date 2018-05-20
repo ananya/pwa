@@ -17,7 +17,7 @@
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('/pwa/public/service-worker.js', {scope: '/pwa/public/'})
+             .register('./service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
 })();
