@@ -17,7 +17,7 @@
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('/https://ananya-agrawal.github.io/pwa/public/service-worker.js')
+             .register('https://ananya-agrawal.github.io/pwa/public/service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
 })();
