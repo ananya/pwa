@@ -2,25 +2,33 @@
   "name": "pwa",
   "short_name": "pwa",
   "icons": [{
-    "src": "/images/icons/icon-128x128.png",
-      "sizes": "128x128",
+    "src": "/images/640x1136.png",
+      "sizes": "640x1136",
       "type": "image/png"
     }, {
-      "src": "/images/icons/icon-144x144.png",
-      "sizes": "144x144",
+      "src": "/images/750x1294.jpeg",
+      "sizes": "750x1294",
+      "type": "image/jpeg"
+    }, {
+      "src": "/images/1125x2436.jpeg",
+      "sizes": "1125x2436",
+      "type": "image/jpeg"
+    }, {
+      "src": "/images/1242x2148.png",
+      "sizes": "1242x2148",
       "type": "image/png"
     }, {
-      "src": "/images/icons/icon-152x152.png",
-      "sizes": "152x152",
-      "type": "image/png"
+      "src": "/images/1536x2048.jpeg",
+      "sizes": "1536x2048",
+      "type": "image/jpeg"
     }, {
-      "src": "/images/icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "/images/1668x2224.jpeg",
+      "sizes": "1668x2224",
+      "type": "image/jpeg"
     }, {
-      "src": "/images/icons/icon-256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
+      "src": "/images/2048x2732.jpeg",
+      "sizes": "2048x2732",
+      "type": "image/jpeg"
     }],
   "start_url": "https://ananya-agrawal.github.io/pwa/public/index.html",
   "display": "standalone",
