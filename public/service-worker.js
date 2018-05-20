@@ -86,7 +86,26 @@ self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
   e.respondWith(
     caches.match(e.request).then(function(response) {
-      return response || fetch(e.request);
+      // return response || fetch(e.request);
+      if (response) {
+        return response;
+      }
+      var fetchRequest = e.request.clone();
+
+      return fetch(fetchRequest).then(
+        function(response) {
+          if(!response || response.status !== 200 || response.type !== 'basic') {
+            return response;
+          }
+          var responseToCache = response.clone();
+
+          caches.open(cacheName)
+            .then(function(cache) {
+              cache.put(event.request, responseToCache);
+            });
+            return response;
+        }
+      );
     })
   );
 });
