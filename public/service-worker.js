@@ -1,7 +1,6 @@
 var dataCacheName = 'pwa';
 var cacheName = 'pwa';
 var filesToCache = [
-  '/',
  "https://ananya-agrawal.github.io/pwa/public/fonts",
  "https://ananya-agrawal.github.io/pwa/public/fonts/roboto",
  "https://ananya-agrawal.github.io/pwa/public/fonts/roboto/Roboto-Bold.woff",
